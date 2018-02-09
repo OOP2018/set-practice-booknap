@@ -70,6 +70,8 @@ public class SetPractice {
 		// To ensure that these are *distinct* objects use 'set.add(new String("cat"))'
 		// and new String("dog").
 		System.out.println("Add duplicate items to the set ");
+		set.add(new String("cat"));
+		set.add(new String("dog"));
 		System.out.println();
 		
 		
